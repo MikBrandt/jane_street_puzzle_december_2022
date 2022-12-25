@@ -92,4 +92,3 @@ def solution(value, r, c, n, top, left, right, front, back, bottom):
 final_path = solution(0, 5, 0, 0, top=init_top, left=init_left, right=init_right, front=init_front, back=init_back,
                       bottom=init_bottom)
 print('final answer:', total_sum - sum([grid[i[0]][i[1]] for i in final_path]))
-
